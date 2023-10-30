@@ -26,8 +26,11 @@ img {
   border-radius: 2%;
 }
 
-div a {
+a {
   text-decoration: none;
+}
+
+div a {
   color: var(--primary-text-color);
   padding: 10px 30px;
   font-weight: 800;
@@ -41,4 +44,9 @@ a:visited {
   display: flex;
   justify-content: right;
   margin-top: 30px;
+}
+
+.contact {
+  flex-direction: column;
+  align-items: center;
 }
